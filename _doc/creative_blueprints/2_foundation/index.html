@@ -1,0 +1,81 @@
+<style>
+  .mode-landscape .sl-cols { flex-direction: row; }
+  .mode-portrait .sl-cols { flex-direction: column; }
+  .mode-landscape .sl-col { width: 50%; }
+  .mode-portrait .sl-col { width: 100%; }
+</style>
+
+<section class="w-full h-full bg-white overflow-auto">
+  <div class="flex flex-col h-full p-8 pb-6">
+
+    <!-- Header -->
+    <div class="mb-5">
+      <p class="text-xs font-bold tracking-widest uppercase text-amber-500 mb-1">The Big Picture</p>
+      <h2 class="text-3xl font-black text-slate-900">Problem &amp; Solution</h2>
+    </div>
+
+    <!-- Two-column cards -->
+    <div class="sl-cols flex gap-4 flex-1 min-h-0">
+
+      <!-- Problem -->
+      <div class="sl-col bg-slate-900 rounded-2xl p-7 flex flex-col justify-between">
+        <div>
+          <p class="text-xs font-bold tracking-widest uppercase text-red-400 mb-3">The Problem</p>
+          <h3 class="text-xl font-bold text-white mb-4 leading-snug">
+            Car owners juggle scattered tools — and leave affiliate revenue on the table.
+          </h3>
+          <ul class="space-y-3">
+            <li class="flex gap-3">
+              <span class="text-red-400 font-bold mt-0.5 shrink-0">✕</span>
+              <p class="text-slate-300 text-sm leading-relaxed">Maintenance tracked on paper or forgotten — missed service intervals lead to costly repairs.</p>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-red-400 font-bold mt-0.5 shrink-0">✕</span>
+              <p class="text-slate-300 text-sm leading-relaxed">Fuel costs logged separately with no link to vehicle health data or spending trends.</p>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-red-400 font-bold mt-0.5 shrink-0">✕</span>
+              <p class="text-slate-300 text-sm leading-relaxed">High-intent car accessory shoppers exist inside the app — but there's no store to convert them, and commission income is zero.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-4 overflow-hidden rounded-xl h-24">
+          <img
+            src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=frustrated%20car%20owner%20with%20paper%20receipts%20and%20multiple%20phone%20apps%20moody%20dark%20automotive"
+            class="w-full h-full object-cover"
+            alt="Problem visual"
+          />
+        </div>
+      </div>
+
+      <!-- Solution -->
+      <div class="sl-col border-2 border-amber-400 rounded-2xl p-7 flex flex-col justify-between">
+        <div>
+          <p class="text-xs font-bold tracking-widest uppercase text-amber-500 mb-3">The Solution</p>
+          <h3 class="text-xl font-bold text-slate-900 mb-4 leading-snug">
+            One Flutter app. Three modules. Passive commission on every sale.
+          </h3>
+          <ul class="space-y-3">
+            <li class="flex gap-3">
+              <span class="text-amber-500 font-bold mt-0.5 shrink-0">✓</span>
+              <p class="text-slate-700 text-sm leading-relaxed"><strong>Maintenance module</strong> — digital service log with reminders, history, and multi-vehicle support.</p>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-amber-500 font-bold mt-0.5 shrink-0">✓</span>
+              <p class="text-slate-700 text-sm leading-relaxed"><strong>Fuel tracking module</strong> — fill-up logs, efficiency analytics, and monthly spend charts.</p>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-amber-500 font-bold mt-0.5 shrink-0">✓</span>
+              <p class="text-slate-700 text-sm leading-relaxed"><strong>Affiliate shop module</strong> — curated car accessories via affiliate links; earn 3–8% commission on every user purchase, no inventory required.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mt-4">
+          <p class="text-amber-700 text-xs font-bold uppercase tracking-wider mb-1">Why It Converts</p>
+          <p class="text-slate-700 text-sm leading-relaxed">Users who track oil changes already trust the app with their car. The shop turns that trust into revenue — no ad spend, no cold traffic.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
