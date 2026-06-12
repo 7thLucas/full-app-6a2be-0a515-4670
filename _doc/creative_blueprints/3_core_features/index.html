@@ -1,0 +1,81 @@
+<style>
+  .mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+  .mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+</style>
+
+<section class="w-full h-full bg-white overflow-auto">
+  <div class="flex flex-col h-full p-8 pb-6">
+
+    <!-- Header -->
+    <div class="mb-4">
+      <p class="text-xs font-bold tracking-widest uppercase text-amber-500 mb-1">What's Inside</p>
+      <h2 class="text-3xl font-black text-slate-900 mb-3">Core Features</h2>
+      <!-- Persona chips -->
+      <div class="flex gap-2">
+        <span class="px-4 py-1.5 bg-slate-900 text-white text-xs font-semibold rounded-full">Car Owner</span>
+        <span class="px-4 py-1.5 bg-slate-100 text-slate-500 text-xs font-medium rounded-full">Accessory Shopper</span>
+        <span class="px-4 py-1.5 bg-amber-100 text-amber-700 text-xs font-semibold rounded-full">App Owner</span>
+      </div>
+    </div>
+
+    <!-- Feature cards grid -->
+    <div class="sl-grid grid gap-3 flex-1 min-h-0">
+
+      <!-- Maintenance -->
+      <div class="bg-slate-900 rounded-xl p-5 flex flex-col justify-between">
+        <div class="text-2xl mb-2">🔧</div>
+        <div>
+          <h3 class="font-bold text-white text-sm mb-1">Vehicle Maintenance Log</h3>
+          <p class="text-slate-400 text-xs leading-relaxed">Service records, reminders, and full history per vehicle. Oil changes, brakes, tyres — all tracked.</p>
+        </div>
+      </div>
+
+      <!-- Fuel -->
+      <div class="bg-slate-800 rounded-xl p-5 flex flex-col justify-between">
+        <div class="text-2xl mb-2">⛽</div>
+        <div>
+          <h3 class="font-bold text-white text-sm mb-1">Fuel Tracking &amp; Analytics</h3>
+          <p class="text-slate-400 text-xs leading-relaxed">Log fill-ups, auto-compute km/L or mpg, and visualise monthly fuel cost trends.</p>
+        </div>
+      </div>
+
+      <!-- Affiliate Shop -->
+      <div class="bg-amber-500 rounded-xl p-5 flex flex-col justify-between">
+        <div class="text-2xl mb-2">🛒</div>
+        <div>
+          <h3 class="font-bold text-white text-sm mb-1">Affiliate Accessories Shop</h3>
+          <p class="text-amber-100 text-xs leading-relaxed">Curated car accessories catalog. Users shop; you earn 3–8% commission per qualifying purchase.</p>
+          <span class="inline-block mt-2 px-2 py-0.5 bg-white text-amber-700 text-xs font-bold rounded-full">New Module</span>
+        </div>
+      </div>
+
+      <!-- Product Catalog -->
+      <div class="border border-slate-200 rounded-xl p-5 flex flex-col justify-between">
+        <div class="text-2xl mb-2">📦</div>
+        <div>
+          <h3 class="font-bold text-slate-800 text-sm mb-1">Product Catalog</h3>
+          <p class="text-slate-500 text-xs leading-relaxed">Categories: car care, electronics, interior, performance parts, exterior styling, emergency kits.</p>
+        </div>
+      </div>
+
+      <!-- BLoC Architecture -->
+      <div class="border border-slate-200 rounded-xl p-5 flex flex-col justify-between">
+        <div class="text-2xl mb-2">⚡</div>
+        <div>
+          <h3 class="font-bold text-slate-800 text-sm mb-1">Flutter BLoC Architecture</h3>
+          <p class="text-slate-500 text-xs leading-relaxed">Scalable, testable state management. Each module is isolated — new features never break existing ones.</p>
+        </div>
+      </div>
+
+      <!-- Commission Attribution -->
+      <div class="border border-amber-200 bg-amber-50 rounded-xl p-5 flex flex-col justify-between">
+        <div class="text-2xl mb-2">💰</div>
+        <div>
+          <h3 class="font-bold text-amber-800 text-sm mb-1">Affiliate Commission Layer</h3>
+          <p class="text-amber-700 text-xs leading-relaxed">Deep-link URLs with tracking params. Compatible with Amazon, Shopee, Lazada, or any CPS affiliate network.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
