@@ -1,0 +1,57 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-content { width: 58%; }
+  .mode-landscape .sl-visual { width: 42%; }
+  .mode-portrait .sl-content { flex: 0 0 58%; }
+  .mode-portrait .sl-visual { flex: 1; }
+</style>
+
+<section class="w-full h-full bg-white overflow-auto">
+  <div class="sl-layout flex h-full">
+
+    <!-- Content column -->
+    <div class="sl-content flex flex-col justify-between p-10">
+
+      <!-- Brand mark -->
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-lg bg-amber-500 flex items-center justify-center">
+          <span class="text-white font-black text-sm">A</span>
+        </div>
+        <span class="text-xs font-bold tracking-widest uppercase text-slate-400">AutoMate</span>
+      </div>
+
+      <!-- Headline block -->
+      <div>
+        <p class="text-xs font-bold tracking-widest uppercase text-amber-500 mb-3">Flutter · BLoC · Affiliate Commerce</p>
+        <h1 class="text-5xl font-black leading-tight text-slate-900 mb-4">
+          Track.<br>Maintain.<br><span class="text-amber-500">Shop &amp; Earn.</span>
+        </h1>
+        <p class="text-sm text-slate-500 leading-relaxed mb-6 max-w-xs">
+          The all-in-one car companion — vehicle maintenance, fuel tracking, and an affiliate accessories shop that earns you commission on every user purchase.
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Vehicle Maintenance</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Fuel Tracking</span>
+          <span class="px-3 py-1 bg-amber-500 text-white text-xs font-semibold rounded-full">Affiliate Shop ✦ New</span>
+        </div>
+      </div>
+
+      <!-- Attribution -->
+      <div>
+        <data-attribution />
+      </div>
+
+    </div>
+
+    <!-- Visual column -->
+    <div class="sl-visual overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=premium%20automotive%20mobile%20app%20dark%20navy%20amber%20gold%20car%20accessories%20shop%20sleek%20minimal%20hero%20visual"
+        class="w-full h-full object-cover"
+        alt="AutoMate hero visual"
+      />
+    </div>
+
+  </div>
+</section>
