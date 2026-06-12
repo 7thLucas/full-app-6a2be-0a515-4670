@@ -1,0 +1,1 @@
+Build the flutter app and using flutter bloc state management car accessories shop already have a vehile maintence and fuel tracking so you need to create module for ecom like affliate products into my app listing user purchase the product to get the commion for me got it implement it
